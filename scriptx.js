@@ -6,7 +6,7 @@ createbtn.addEventListener('click',()=>{
    let inputbox=document.createElement("p");
         inputbox.className="inputbox";
     let img=document.createElement("img");
-    img.src="delete.png";
+    img.src="images/delete.png";
     inputbox.setAttribute("contenteditable","true");
     notesContainer.appendChild(inputbox).append(img);
     save();
