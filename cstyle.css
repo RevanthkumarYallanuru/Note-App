@@ -18,12 +18,12 @@
 }
 .container h1 img
 {
-    width:60px;
+    width:30px;
 }
 .container button image
 {
-width: 25px;
-margin: 8px;
+width: 18px;
+margin: 5px;
 height: 15px;
 }
 .container button
@@ -76,3 +76,178 @@ height: 15px;
     right: 15px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    /* styles for mobile devices go here */
+
+    .container
+{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#7f7a83,#202124);
+    background-repeat: y;
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 30px;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+.container h1 img
+{
+    width:40px;
+}
+
+.container button
+{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: #7f7a83;
+    color: #fff;
+    font-size: 12px;
+    outline: 0;
+    border: #202124 1px solid;
+    border-radius: 20px;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    font-weight: 800;
+    font-style: italic;
+    cursor: pointer;
+}
+#imgs
+{
+    height: 20px;
+    width: 12px;
+}
+.container button:hover
+{
+    background: #000;
+
+}
+.inputbox
+{
+    position:relative;
+    width: 100%;
+    max-width: 330px;
+    min-height: 30vh;
+    background-color: #645d5d8c;
+    padding: 15px;
+    margin: 15px 0;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: large;
+    border: #6d6767 2px solid ;
+
+}
+.inputbox img
+{
+    width: 16px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+  }
+
+
+
+  
+@media screen and (max-width: 360px) {
+    /* styles for mobile devices go here */
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    body{
+        height: 150%;
+        background-repeat: no-repeat;
+    }
+
+    .container
+{
+    width: 100%;
+    min-height: 110vh;
+    background: linear-gradient(135deg,#7f7a83,#202124);
+    background-repeat: y;
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 30px;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+.container h1 img
+{
+    width:40px;
+}
+
+.container button
+{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: #7f7a83;
+    color: #fff;
+    font-size: 12px;
+    outline: 0;
+    border: #202124 1px solid;
+    border-radius: 20px;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    font-weight: 800;
+    font-style: italic;
+    cursor: pointer;
+}
+#imgs
+{
+    height: 20px;
+    width: 12px;
+}
+.container button:hover
+{
+    background: #000;
+
+}
+.inputbox
+{
+    position:relative;
+    width: 100%;
+    max-width: 250px;
+    min-height: 30vh;
+    background-color: #645d5d8c;
+    padding: 15px;
+    margin: 15px 0;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: large;
+    border: #6d6767 2px solid ;
+
+}
+.inputbox img
+{
+    width: 16px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+  }
